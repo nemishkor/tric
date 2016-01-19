@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\begin{document}
+Graf 0\\
+\verb'|- Level: 2'\\
+\verb'|- Number of solution: 4'\\
+\verb'|- Have: '\\
+\verb'|  |- angle3 '\\
+\verb'|  |- side3 '\\
+\verb'|  |- side1 '\\
+\verb'|- Want: angle1 '\\
+\verb'|- Name: theorem of sines '\\
+\verb'|- Description: angle from the two sides and angle '
+Graf 1\\
+\verb'|- Level: 2'\\
+\verb'|- Number of solution: 6'\\
+\verb'|- Have: '\\
+\verb'|  |- angle3 '\\
+\verb'|  |- side3 '\\
+\verb'|  |- side2 '\\
+\verb'|- Want: angle2 '\\
+\verb'|- Name: theorem of sines '\\
+\verb'|- Description: angle from the two sides and angle '
+Graf 2\\
+\verb'|- Level: 0'\\
+\verb'|- Number of solution: -1'\\
+\verb'|- Have: angle3'\\
+Graf 3\\
+\verb'|- Level: 3'\\
+\verb'|- Number of solution: 21'\\
+\verb'|- Have: '\\
+\verb'|  |- angle1 '\\
+\verb'|- Want: outAngle1 '\\
+\verb'|- Name:  '\\
+\verb'|- Description: outside angle for interior angle '
+Graf 4\\
+\verb'|- Level: 3'\\
+\verb'|- Number of solution: 22'\\
+\verb'|- Have: '\\
+\verb'|  |- angle2 '\\
+\verb'|- Want: outAngle2 '\\
+\verb'|- Name:  '\\
+\verb'|- Description: outside angle for interior angle '
+Graf 5\\
+\verb'|- Level: 1'\\
+\verb'|- Number of solution: 23'\\
+\verb'|- Have: '\\
+\verb'|  |- angle3 '\\
+\verb'|- Want: outAngle3 '\\
+\verb'|- Name:  '\\
+\verb'|- Description: outside angle for interior angle '
+Graf 6\\
+\verb'|- Level: 0'\\
+\verb'|- Number of solution: -1'\\
+\verb'|- Have: side1'\\
+Graf 7\\
+\verb'|- Level: 0'\\
+\verb'|- Number of solution: -1'\\
+\verb'|- Have: side2'\\
+Graf 8\\
+\verb'|- Level: 1'\\
+\verb'|- Number of solution: 0'\\
+\verb'|- Have: '\\
+\verb'|  |- angle3 '\\
+\verb'|  |- side1 '\\
+\verb'|  |- side2 '\\
+\verb'|- Want: side3 '\\
+\verb'|- Name: theorem of cosines '\\
+|- Description: side from the two sides and angle between them
+\newpage
+I finded parameters using this way...\\
+Given: angle3 = 60; side1 = 12; side2 = 8. \\
+Required: angle1; angle2; side3.
+\flushleft
+\begin{enumerate}
+\item
+Method name (theorem): \verb'theorem of sines'\\
+Description: \verb'angle from the two sides and angle'\\
+Input data: \verb'angle3 = 60; side3 - unknown value; side1 = 12.' \\
+Output data (we get): \verb'angle1'
+\begin{displaymath} \arcsin{\sin{\frac{x*y}{z}}},\end{displaymath}where \verb'x = angle1', \verb'y = side2', \verb'z = side1' \begin{displaymath}\arcsin{\sin{\frac{60*12}{1.4242e-306}}}=nan \end{displaymath}
+\end{enumerate}
+\end{document}

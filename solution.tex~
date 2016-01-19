@@ -1,0 +1,8 @@
+\documentclass[12pt]{article}\begin{document}
+Graf 0\\
+\verb'|- Level: 0'\\\verb'|- Number of solution: -1'\\\verb'|- Have: angle1'\\Graf 1\\
+\verb'|- Level: 1'\\\verb'|- Number of solution: 5'\\\verb'|- Have: '\\\verb'|  |- angle1 '\\\verb'|  |- side1 '\\\verb'|  |- side2 '\\\verb'|- Want: angle2 '\\\verb'|- Name: theorem of sines '\\\verb'|- Description: angle from the two sides and angle between them '\\Graf 3\\
+\verb'|- Level: 1'\\\verb'|- Number of solution: 20'\\\verb'|- Have: '\\\verb'|  |- angle1 '\\\verb'|- Want: outAngle1 '\\\verb'|- Name:  '\\\verb'|- Description: outside angle for interior angle '\\Graf 4\\
+\verb'|- Level: 2'\\\verb'|- Number of solution: 21'\\\verb'|- Have: '\\\verb'|  |- angle2 '\\\verb'|- Want: outAngle2 '\\\verb'|- Name:  '\\\verb'|- Description: outside angle for interior angle '\\Graf 6\\
+\verb'|- Level: 0'\\\verb'|- Number of solution: -1'\\\verb'|- Have: side1'\\Graf 7\\
+\verb'|- Level: 0'\\\verb'|- Number of solution: -1'\\\verb'|- Have: side2'\\I finded parameters using this way...\\ $ \( \arcsin{ \sin{\frac{40 * 1}{2}} } \) = 0.381762 $ \\\end{document}
